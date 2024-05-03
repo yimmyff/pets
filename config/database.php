@@ -12,7 +12,6 @@ $conn = pg_connect("host=$host dbname=$dbname user =$username password =$passwor
 if (!$conn){
     die("connection error :". pg_last_error());
 }else{
-
-    echo"success !!!!";
+    echo "success !!!!";
 }
 ?>
